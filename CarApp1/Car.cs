@@ -20,7 +20,7 @@ namespace CarApp1
 
         public void ShowCarInfo()
         {
-            Console.WriteLine("Car Info: " + "Brand " + Brand + "Model " + Model + "Year " + Year + "Mileage" + Mileage);
+            Console.WriteLine("Car Info: " + " Brand " + Brand + " Model " + Model + " Year " + Year + " Mileage " + Mileage);
         }
     }
 }
