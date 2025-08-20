@@ -11,9 +11,7 @@ namespace CarApp1
 
         public void Drive(int kilometers)
         {
-            //Mileage = 0;
-            //kilometers = 0;
-            Mileage=Mileage + kilometers;
+            Mileage= Mileage + kilometers;
             Console.WriteLine("Car " + Brand + " " + Model + " has driven " + kilometers + " km. " + "Total mileage: " + Mileage + " km.");
         }
 
